@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <title>header tag</title>
+    <style>
+        body { background-image: linear-gradient(rgb(125, 163, 245), rgb(255, 238, 0), rgb(185, 241, 224));} 
+        h1 {
+             font-size: 32;
+             color: rgb(179, 235, 216);
+             margin-top: 5; 
+            }
+         p {
+            font-size: 25;
+            color: rgb(25, 160, 115);
+            margin-top: 5;
+            text-align: left;
+         } 
+         table,
+         th,
+         td {
+            border: 1px solid black ;
+            border-collapse: collapse;
+            background-color: rgb(145, 245, 248);
+         }
+         th,
+         td {
+            text-align: center;
+            padding: 20PX;
+         }
+    </style>
+    <head>
+        <header>
+         <h1>Science and Future</h1>
+    </header>
+        <body>
+            <article>
+                <h2>Technology</h2>
+                <STYle>
+                    h2 {
+                        color: aqua;
+                    }
+                </STYle>
+            </article>
+            <h3>Navigate</h3>
+            <nav>
+                <a href="Home">Home</a>
+                <a href="About us">/About us</a>
+            </nav>
+        <main>
+            <aside><p>Let us see the future of technology with some pictures</p></aside>
+            <details>
+                <summary class="h2">
+                <h2>Future of Technology</h2>
+                </summary>
+                <p>Soon the humans will be replaced by <mark>ROBOTS</mark></p>
+            </details>
+            <button type="button"><a href="https://sfontechnologies.com/">Click me</button></a>
+            <figure>
+                <style>
+                    figcaption {
+                        text-align: left;
+                    }
+                </style>
+                <img src="mind and science.jpg"width="300" height="200" alt="mind and science.jpg">
+                <figcaption>Innovation with mind and science</figcaption>
+                <img src="future of technology.jpg" width="300" height="200" alt="future of Technologies.jpg">
+                <figcaption>Technology in Future</figcaption>
+            </figure>
+        </main>
+            <main>Future of innovation</main>
+            <table style="width: fit-content;">
+                <caption><h3>CONTENT</h3></caption>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Contact</th>
+                </tr>
+                <tr>
+                    <td>Mohd</td>
+                    <td>Khan</td>
+                    <td>30</td>
+                    <td>9887656584</td>
+                </tr>
+                <tr>
+                    <td>abc</td>
+                    <td>xyz</td>
+                    <td>32</td>
+                    <td>7894561230</td>
+                </tr>
+            </table>
+            <style>
+                section {
+                    font-size: small;
+                    color: rgb(255, 32, 32);
+                }
+            </style>
+            <section>
+                See the difference
+            </section>
+            <section>
+                difference in today and future of technology
+            </section>
+<footer>
+    <style>
+        h4 {
+            text-align: center;
+        }
+        p {
+            text-align: left;
+        }
+    </style>
+       <h4>Details</h4>
+       <p>Visit: <a href="https://sfontechnologies.com/">SFONTECHNOLOGIES.COM</a>
+</footer>
+        </body>
+    </head>
+</html>
